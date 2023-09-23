@@ -20,5 +20,5 @@ jobs:
       with:
         server: 172.172.224.46
         username: ${{secrets.ftp_username}}
-        password: ${{secrets.ftp_passwords}}
+        password: ${{secrets.ftp_password}}
         server-dir: www/
