@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Akcja Github
-      uses: action/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Wdrożenie do FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
