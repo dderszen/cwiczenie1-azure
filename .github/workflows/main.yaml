@@ -16,7 +16,7 @@ jobs:
       uses: action/checkout@v4
 
     - name: Wdrożenie do FTP
-      uses: SanKirkland/FTP-Deploy-Action@v4.3.4
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 172.172.224.46
         username: ${{secrets.ftp_username}}
